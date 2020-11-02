@@ -1,6 +1,7 @@
 # 100days 
 
 # Day 1: Anaconda vs conda.
+-- NO CODE --
 Added folium via conda
 Started new repo for earthquakes
 set up postman account
@@ -8,11 +9,11 @@ set up postman account
 **Completion Date:** Wed 28 Oct 2020
 
 **Learned:**
-I know little about API calls
+I know very little about API calls
 USGS does not provide tsunami warnings. Those are provided by NOAA.
 USGS does provided an intersting product, PAGER.
 
-
+---
 # Day 2: Anaconda vs conda.
 Printing exercises. Not a whole lot new but there were a few distinctions.
 
@@ -38,7 +39,7 @@ Some more vim commands I've learned tonight:
  - Undo a change ==> Crtl-r
 
 
-
+---
 # Day 3:
 Switched to TPTM 100 days as the CaptCorpMURICA seems good but is more basic -- and also not complete.
 
@@ -49,3 +50,14 @@ This was on datetime. The lessons were good but the project still isn't complete
 
 **Learned:**
 So far, not a ton other than parsing datetime objects wasn't as easy as I thought they would be.
+
+---
+# Days 4 & 5:
+More work on datetime module (mostly on Day 05). <br>
+On Day 04 it was mostly sidetracked by getting a csv of earthquakes to display in folium.
+
+**Completion Date:** Sun, 01 Nov 2020s
+
+**Learned:**
+From RealPython's article on datetime:
+>[Python Module] time is less powerful and more complicated to use than datetime. Many functions in time return a special struct_time instance. This object has a named tuple interface for accessing stored data, making it similar to an instance of datetime. However, it doesn’t support all of the features of datetime, especially the ability to perform arithmetic with time values.
