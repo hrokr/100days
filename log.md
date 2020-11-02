@@ -1,4 +1,4 @@
-# 100days 
+
 
 # Day 1: Anaconda vs conda.
 -- NO CODE --
@@ -13,6 +13,7 @@ I know very little about API calls
 USGS does not provide tsunami warnings. Those are provided by NOAA.
 USGS does provided an intersting product, PAGER.
 
+<br>
 ---
 # Day 2: Anaconda vs conda.
 Printing exercises. Not a whole lot new but there were a few distinctions.
@@ -38,23 +39,34 @@ Some more vim commands I've learned tonight:
  - Change the case of several letters (e.g., 3 letters) ==> 3~
  - Undo a change ==> Crtl-r
 
-
+<br>
 ---
 # Day 3:
 Switched to TPTM 100 days as the CaptCorpMURICA seems good but is more basic -- and also not complete.
 
 This was on datetime. The lessons were good but the project still isn't complete, the difficulty being in parsing.
 
-
 **Completion Date:** Fri, 30 Oct 2020 
 
 **Learned:**
 So far, not a ton other than parsing datetime objects wasn't as easy as I thought they would be.
 
----
-# Days 4 & 5:
-More work on datetime module (mostly on Day 05). <br>
-On Day 04 it was mostly sidetracked by getting a csv of earthquakes to display in folium.
+<br>
+
+# Day 4: Mostly getting a csv of earthquakes to display in folium
+
+**Completion Date:** Sat, 31 Oct 2020s
+
+**Learned:**
+This is why I should write stuff down earlier. There was some trick like a loop I did. I really expected there to be some sort answer via broadcasting but nothing I could find. Happy Halloween!
+
+<br>
+
+# Day 5: More work on datetime module
+Completed the two pybites challenges, plus a MVP of an egg timer. For next steps I think doing this a command line tool seems good. The only thing left is parsing dates from logs. Apparently, this was too hard as:
+>Edit: We decided to simplify Bite 7 slightly after some feedback we received from students. We've now removed the requirement to read in the file which should keep the Bite focused on the theme.
+
+Which I had gotten done but not the parsing. I'll spend a little more on it now.
 
 **Completion Date:** Sun, 01 Nov 2020s
 
