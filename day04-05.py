@@ -5,10 +5,13 @@ start_100days = date(2017, 3, 30)
 pybites_founded = date(2016, 12, 19)
 pycon_date = date(2018, 5, 8)
 
-# The assignment, completed using the given dates above
+# The assignments, completed using the given dates above
+
+
 def get_hundred_days_end_date():
     """Return a string of yyyy-mm-dd"""
-    return str(start_100days + timedelta(days=+100)) 
+    return str(start_100days + timedelta(days=+100))
+
 
 def get_days_between_pb_start_first_joint_pycon(pybites_founded, pycon_date):
     """Return the int number of days"""
@@ -17,9 +20,9 @@ def get_days_between_pb_start_first_joint_pycon(pybites_founded, pycon_date):
 
 # Rolling on ...
 
-from datetime import datetime
 
 THIS_YEAR = 2018
+
 
 def years_ago(date_string):
     """Receives a date string of 'DD MMM, YYYY', for example: 8 Aug, 2015
@@ -27,7 +30,6 @@ def years_ago(date_string):
        Then extract the year from the obtained datetime object and subtract
        it from the THIS_YEAR constant above, returning the int difference.
        So in this example you would get: 2018 - 2015 = 3"""
-    
     date_obj = datetime.strptime(date_string, "%d %b, %Y")
     return THIS_YEAR - date_obj.year
 
@@ -38,9 +40,8 @@ def convert_eu_to_us_date(date):
        To enforce the use of datetime's strptime / strftime (over slicing)
        the tests check if a ValueError is raised for invalid day/month/year
        ranges (no need to code this, datetime does this out of the box)"""
-    
-    return datetime.strptime(date, "%d %B, %Y")
-
+    dto = datetime.strptime(date, "%d/%m/%Y")
+    return dto.strftime("%m/%d/%Y")
 
 
 # Additional stuff that interested me
@@ -51,8 +52,8 @@ def ending_date():
 
 
 if __name__ == "__main__":
-    #print(get_hundred_days_end_date())
-    #print(get_days_between_pb_start_first_joint_pycon(pybites_founded, pycon_date))
-    #ending_date()
+    print(get_hundred_days_end_date())
+    print(get_days_between_pb_start_first_joint_pycon(pybites_founded, pycon_date))
+    ending_date()
     print(years_ago("23 Mar, 2020"))
     print(convert_eu_to_us_date('11/03/2002'))
