@@ -1,6 +1,6 @@
 
 
-# Day 1: Anaconda vs conda.
+# Day -1: Anaconda vs conda.
 -- NO CODE --
 Added folium via conda
 Started new repo for earthquakes
@@ -15,10 +15,10 @@ USGS does provided an intersting product, PAGER.
 
 <br>
 ---
-# Day 2: Anaconda vs conda.
+# Day 0: Anaconda vs conda.
 Printing exercises. Not a whole lot new but there were a few distinctions.
 
-**Completion Date:** Thurs 29 Oct 2020 
+**Completion Date:** Thurs 29 Oct 2020
 
 **Learned:**
 You can positionally index the contents inside the brackets. Index is zero based 
@@ -41,7 +41,7 @@ Some more vim commands I've learned tonight:
 
 <br>
 ---
-# Day 3:
+# Day 1:
 Switched to TPTM 100 days as the CaptCorpMURICA seems good but is more basic -- and also not complete.
 
 This was on datetime. The lessons were good but the project still isn't complete, the difficulty being in parsing.
@@ -53,23 +53,32 @@ So far, not a ton other than parsing datetime objects wasn't as easy as I though
 
 <br>
 
-# Day 4: Mostly getting a csv of earthquakes to display in folium
+# Day 2: Mostly getting a csv of earthquakes to display in folium
 
-**Completion Date:** Sat, 31 Oct 2020s
+**Completion Date:** Sat, 31 Oct 2020
 
 **Learned:**
 This is why I should write stuff down earlier. There was some trick like a loop I did. I really expected there to be some sort answer via broadcasting but nothing I could find. Happy Halloween!
 
 <br>
 
-# Day 5: More work on datetime module
+# Day 3: More work on datetime module
 Completed the two pybites challenges, plus a MVP of an egg timer. For next steps I think doing this a command line tool seems good. The only thing left is parsing dates from logs. Apparently, this was too hard as:
 >Edit: We decided to simplify Bite 7 slightly after some feedback we received from students. We've now removed the requirement to read in the file which should keep the Bite focused on the theme.
 
 Which I had gotten done but not the parsing. I'll spend a little more on it now.
 
-**Completion Date:** Sun, 01 Nov 2020s
+**Completion Date:** Sun, 01 Nov 2020
 
 **Learned:**
 From RealPython's article on datetime:
 >[Python Module] time is less powerful and more complicated to use than datetime. Many functions in time return a special struct_time instance. This object has a named tuple interface for accessing stored data, making it similar to an instance of datetime. However, it doesn’t support all of the features of datetime, especially the ability to perform arithmetic with time values.
+
+<br>
+
+# Day 4: Named Tuples, 
+
+
+**Completion Date:** Mon, 02 Nov 2020
+
+**Learned:**
