@@ -76,9 +76,18 @@ From RealPython's article on datetime:
 
 <br>
 
-# Day 4: Named Tuples, 
+# Day 4: namedtuple, defaultdict, Counter, and Deque
+The videos for these were short and sweet.
+ * namedtuple
+ * defaultdict
+ * Counter
+ * Deque
 
+Since there wasn't much in the way of work, I looked up the [collections documention](https://docs.python.org/3.3/library/collections.html?highlight=namedtuple#module-collections)
+
+ChainMap is beyond any use case I can think of right now.
 
 **Completion Date:** Mon, 02 Nov 2020
 
 **Learned:**
+Not sure that I'd say I learned it. More like learned about it.
