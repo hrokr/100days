@@ -90,4 +90,15 @@ ChainMap is beyond any use case I can think of right now.
 **Completion Date:** Mon, 02 Nov 2020
 
 **Learned:**
-Not sure that I'd say I learned it. More like learned about it.
+Not sure that I'd say I learned it. More like learned about it. Also, there
+wasn't any coding for this even with the Jupyter Notebook. So it's hard to say
+how that goes with the whole code an hour a day part.
+
+# Day 5: Analysis project using ~~Day04's stuff~~ pandas
+
+This was disappointing. The TPTM/Pybites 100 days lesson really wasn't for primetime. The requirements for the #100daysofcode is to code for an hour a day. Day04 lesson was "watch these video and you can follow along with the complete notebook" Then a lesson you aren't prepared for. So, I'll do it pandas
+
+**Completion Date:** Tues, 02 Nov 2020
+
+**Learned:**
+Other than pybites not being service I'm interested in and some more practice in pandas, not all that much.
