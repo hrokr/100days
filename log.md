@@ -102,3 +102,9 @@ This was disappointing. The TPTM/Pybites 100 days lesson really wasn't for prime
 
 **Learned:**
 Other than pybites not being service I'm interested in and some more practice in pandas, not all that much.
+
+Day 06 Wed
+
+Day 07 Thurs
+
+Day08 - Pandas -- and doomscrolling this cursed site.
